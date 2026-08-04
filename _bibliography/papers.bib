@@ -3,7 +3,7 @@
 
 @string{kdd = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining}}
 @string{sigir = {ACM SIGIR Conference on Research and Development in Information Retrieval}}
-@string{www = {The Web Conference (WWW)}}
+@string{www = {The Web Conference}}
 
 @inproceedings{kim2026chasing,
   abbr      = {Preprint},
@@ -22,13 +22,12 @@
 }
 
 @inproceedings{choi2026compositional,
-  abbr       = {KDD-W},
-  title      = {Compositional Spectral Prompts for LLM-based Online Time Series Forecasting},
-  author     = {Choi, Seungyoon and Kim, Hyunchul and Lee, Jae-Gil and Park, Chanyoung},
-  booktitle  = {KDD 2026 Workshop, ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  year       = {2026},
-  selected   = {true},
-  annotation = {Oral presentation}
+  abbr      = {KDD-W},
+  title     = {Compositional Spectral Prompts for LLM-based Online Time Series Forecasting},
+  author    = {Choi, Seungyoon and Kim, Hyunchul and Lee, Jae-Gil and Park, Chanyoung},
+  booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining Workshop (Oral)},
+  year      = {2026},
+  selected  = {true}
 }
 
 @inproceedings{choi2025dynamic,
@@ -45,31 +44,29 @@
 }
 
 @inproceedings{kim2024large,
-  abbr       = {KDD},
-  title      = {Large Language Models meet Collaborative Filtering: An Efficient All-round LLM-based Recommender System},
-  author     = {Kim*, Sein and Kang*, Hongseok and Choi, Seungyoon and Kim, Donghyun and Yang, Minchul and Park, Chanyoung},
-  booktitle  = kdd,
-  year       = {2024},
-  selected   = {true},
-  arxiv      = {2404.11343},
-  html       = {https://dl.acm.org/doi/10.1145/3637528.3671931},
-  code       = {https://github.com/ghdtjr/A-LLMRec},
-  annotation = {* Equal contribution},
-  abstract   = {Collaborative filtering recommender systems (CF-RecSys) have shown successive results in enhancing the user experience on social media and e-commerce platforms. However, as CF-RecSys struggles under cold scenarios with sparse user-item interactions, recent strategies have focused on leveraging modality information of user/items (e.g., text or images) based on pre-trained modality encoders and Large Language Models (LLMs). Despite their effectiveness under cold scenarios, we observe that they underperform simple traditional collaborative filtering models under warm scenarios due to the lack of collaborative knowledge. In this work, we propose an efficient All-round LLM-based Recommender system, called A-LLMRec, that excels not only in the cold scenario but also in the warm scenario. Our main idea is to enable an LLM to directly leverage the collaborative knowledge contained in a pre-trained state-of-the-art CF-RecSys so that the emergent ability of the LLM as well as the high-quality user/item embeddings that are already trained by the state-of-the-art CF-RecSys can be jointly exploited. This approach yields two advantages: (1) model-agnostic, allowing for integration with various existing CF-RecSys, and (2) efficiency, eliminating the extensive fine-tuning typically required for LLM-based recommenders.}
+  abbr      = {KDD},
+  title     = {Large Language Models meet Collaborative Filtering: An Efficient All-round LLM-based Recommender System},
+  author    = {Kim*, Sein and Kang*, Hongseok and Choi, Seungyoon and Kim, Donghyun and Yang, Minchul and Park, Chanyoung},
+  booktitle = kdd,
+  year      = {2024},
+  selected  = {true},
+  arxiv     = {2404.11343},
+  html      = {https://dl.acm.org/doi/10.1145/3637528.3671931},
+  code      = {https://github.com/ghdtjr/A-LLMRec},
+  abstract  = {Collaborative filtering recommender systems (CF-RecSys) have shown successive results in enhancing the user experience on social media and e-commerce platforms. However, as CF-RecSys struggles under cold scenarios with sparse user-item interactions, recent strategies have focused on leveraging modality information of user/items (e.g., text or images) based on pre-trained modality encoders and Large Language Models (LLMs). Despite their effectiveness under cold scenarios, we observe that they underperform simple traditional collaborative filtering models under warm scenarios due to the lack of collaborative knowledge. In this work, we propose an efficient All-round LLM-based Recommender system, called A-LLMRec, that excels not only in the cold scenario but also in the warm scenario. Our main idea is to enable an LLM to directly leverage the collaborative knowledge contained in a pre-trained state-of-the-art CF-RecSys so that the emergent ability of the LLM as well as the high-quality user/item embeddings that are already trained by the state-of-the-art CF-RecSys can be jointly exploited. This approach yields two advantages: (1) model-agnostic, allowing for integration with various existing CF-RecSys, and (2) efficiency, eliminating the extensive fine-tuning typically required for LLM-based recommenders.}
 }
 
 @inproceedings{choi2024dslr,
-  abbr       = {WWW},
-  title      = {DSLR: Diversity Enhancement and Structure Learning for Rehearsal-based Graph Continual Learning},
-  author     = {Choi*, Seungyoon and Kim*, Wonjoong and Kim, Sungwon and In, Yeonjun and Kim, Sein and Park, Chanyoung},
-  booktitle  = www,
-  year       = {2024},
-  selected   = {true},
-  arxiv      = {2402.13711},
-  html       = {https://dl.acm.org/doi/10.1145/3589334.3645561},
-  code       = {https://github.com/seungyoon-Choi/DSLR_official},
-  annotation = {* Equal contribution. Oral presentation},
-  abstract   = {We investigate the replay buffer in rehearsal-based approaches for graph continual learning (GCL) methods. Existing rehearsal-based GCL methods select the most representative nodes for each class and store them in a replay buffer for later use in training subsequent tasks. However, we discovered that considering only the class representativeness of each replayed node makes the replayed nodes to be concentrated around the center of each class, incurring a potential risk of overfitting to nodes residing in those regions, which aggravates catastrophic forgetting. Moreover, as the rehearsal-based approach heavily relies on a few replayed nodes to retain knowledge obtained from previous tasks, involving the replayed nodes that have irrelevant neighbors in the model training may have a significant detrimental impact on model performance. In this paper, we propose a GCL model named DSLR, specifically, we devise a coverage-based diversity (CD) approach to consider both the class representativeness and the diversity within each class of the replayed nodes. Moreover, we adopt graph structure learning (GSL) to ensure that the replayed nodes are connected to truly informative neighbors. Extensive experimental results demonstrate the effectiveness and efficiency of DSLR.}
+  abbr      = {WWW},
+  title     = {DSLR: Diversity Enhancement and Structure Learning for Rehearsal-based Graph Continual Learning},
+  author    = {Choi*, Seungyoon and Kim*, Wonjoong and Kim, Sungwon and In, Yeonjun and Kim, Sein and Park, Chanyoung},
+  booktitle = {The Web Conference (Oral)},
+  year      = {2024},
+  selected  = {true},
+  arxiv     = {2402.13711},
+  html      = {https://dl.acm.org/doi/10.1145/3589334.3645561},
+  code      = {https://github.com/seungyoon-Choi/DSLR_official},
+  abstract  = {We investigate the replay buffer in rehearsal-based approaches for graph continual learning (GCL) methods. Existing rehearsal-based GCL methods select the most representative nodes for each class and store them in a replay buffer for later use in training subsequent tasks. However, we discovered that considering only the class representativeness of each replayed node makes the replayed nodes to be concentrated around the center of each class, incurring a potential risk of overfitting to nodes residing in those regions, which aggravates catastrophic forgetting. Moreover, as the rehearsal-based approach heavily relies on a few replayed nodes to retain knowledge obtained from previous tasks, involving the replayed nodes that have irrelevant neighbors in the model training may have a significant detrimental impact on model performance. In this paper, we propose a GCL model named DSLR, specifically, we devise a coverage-based diversity (CD) approach to consider both the class representativeness and the diversity within each class of the replayed nodes. Moreover, we adopt graph structure learning (GSL) to ensure that the replayed nodes are connected to truly informative neighbors. Extensive experimental results demonstrate the effectiveness and efficiency of DSLR.}
 }
 
 @inproceedings{kim2023task,
