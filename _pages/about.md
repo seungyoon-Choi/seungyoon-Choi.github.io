@@ -12,8 +12,10 @@ profile:
 selected_papers: true # papers.bib 에서 selected={true} 인 논문만 표시
 social: true # 하단 소셜 아이콘
 
+# enabled: false 는 "레이아웃이 News를 자동으로 붙이지 말라"는 뜻입니다.
+# 아래 본문에서 원하는 위치에 직접 불러오고 있습니다.
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 
@@ -28,3 +30,40 @@ I am a Ph.D. student in the Department of Industrial &amp; Systems Engineering a
 My research aims to build models that **keep learning from continuously arriving data** without forgetting what they already know — across graphs, user behavior, and time series. Recently I have been interested in how large language models can be adapted to reason about temporal data. My work spans three directions: **continual and data-efficient learning on graphs**, **sequential recommendation and user representation learning**, and **online time series forecasting and reasoning with LLMs**.
 
 Feel free to reach out at **csyoon08 [at] kaist.ac.kr** if you would like to chat about any of these.
+
+<h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h2>
+
+{% include news.liquid limit=true %}
+
+## Education
+
+**[KAIST](https://www.kaist.ac.kr/en/)**, Daejeon, South Korea
+
+- **Ph.D. in Industrial &amp; Systems Engineering**, Feb. 2024 &ndash; Present
+  - Research interest: Time Series Analysis
+  - Advisor: Prof. Chanyoung Park
+- **M.S. in Industrial &amp; Systems Engineering**, Feb. 2022 &ndash; Feb. 2024
+  - Research interest: Graph Continual Learning, User Representation Learning
+  - Advisor: Prof. Chanyoung Park
+- **B.S. in Industrial &amp; Systems Engineering**, Feb. 2017 &ndash; Feb. 2022
+
+## Lead Projects
+
+**Time Series Anomaly Detection for Preservative Maintenance** &nbsp;&nbsp; 2025 &ndash; Present
+
+- In collaboration with SK Hynix
+- Detecting anomalies in multivariate sensor streams for predictive maintenance of semiconductor manufacturing equipment
+
+**Explainable Graph Neural Network for Credit Transfer Prediction** &nbsp;&nbsp; 2025
+
+- In collaboration with Douzone Bizon
+- Predicting credit transfers on transaction graphs with explainable GNNs
+
+## Teaching Experience
+
+- **DS353: Recommender System and Graph Machine Learning**, KAIST &nbsp;&nbsp; 2023
+  - Teaching Assistant
+- **IE631: Integer Programming**, KAIST &nbsp;&nbsp; 2023
+  - Teaching Assistant
+- **IE343: Statistical Machine Learning**, KAIST &nbsp;&nbsp; 2022, 2024
+  - Teaching Assistant

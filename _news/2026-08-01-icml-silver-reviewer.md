@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Recognized as a **Silver Reviewer** (top 26–50% of reviewers) at **ICML 2026**. :trophy:
+Selected as a **Silver Reviewer** (top 26–50% of reviewers) at **ICML 2026**.
