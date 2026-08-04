@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on **LLM-based online time series forecasting** was accepted to the **KDD 2026 Workshop** (Oral). :page_facing_up:
+Our paper *Compositional Spectral Prompts for LLM-based Online Time Series Forecasting* was accepted to the **KDD 2026 Workshop** (Oral). :page_facing_up:
