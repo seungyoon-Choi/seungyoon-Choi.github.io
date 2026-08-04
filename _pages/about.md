@@ -27,9 +27,17 @@ latest_posts:
 
 I am a Ph.D. student in the Department of Industrial &amp; Systems Engineering at **KAIST**, where I am a member of the Data Science and Artificial Intelligence Lab ([DSAIL](https://dsail.kaist.ac.kr/)) advised by Prof. Chanyoung Park. I received my M.S. (2024) and B.S. (2022) from the same department.
 
-My research aims to build models that **keep learning from continuously arriving data** without forgetting what they already know — across graphs, user behavior, and time series. Recently I have been interested in how large language models can be adapted to reason about temporal data. My work spans three directions: **continual and data-efficient learning on graphs**, **sequential recommendation and user representation learning**, and **online time series forecasting and reasoning with LLMs**.
+My research aims to build models that **keep learning from continuously arriving data** without forgetting what they already know — across graphs, user behavior, and time series.
 
-Feel free to reach out at **csyoon08 [at] kaist.ac.kr** if you would like to chat about any of these.
+Within time series analysis, my interest has moved from **predicting** signals to **interpreting** them. Since a time series rarely carries its meaning in its values alone, I aim to build models that read a signal together with the time and the context in which it arises.
+
+**Research Interests**
+
+- **Graph Neural Networks** — continual learning, data-efficient learning
+- **Recommender Systems** — sequential recommendation, user representation learning
+- **Time Series Analysis** — context-aware modeling, semantic understanding of time series
+
+Feel free to reach out at **csyoon08@kaist.ac.kr** if you would like to chat about any of these.
 
 <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h2>
 
