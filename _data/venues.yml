@@ -1,0 +1,15 @@
+# 학회/저널 약어(abbr)에 색상을 지정합니다. papers.bib 의 abbr 값과 맞추세요.
+KDD:
+  url: https://kdd.org/
+  color: "#1d4ed8"
+"KDD-W":
+  url: https://kdd.org/
+  color: "#3b82f6"
+SIGIR:
+  url: https://sigir.org/
+  color: "#0f766e"
+WWW:
+  url: https://www2024.thewebconf.org/
+  color: "#7c3aed"
+Preprint:
+  color: "#6b7280"
