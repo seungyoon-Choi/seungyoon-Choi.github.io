@@ -11,5 +11,7 @@ SIGIR:
 WWW:
   url: https://www2024.thewebconf.org/
   color: "#7c3aed"
+CIKM:
+  color: "#b45309"
 Preprint:
   color: "#6b7280"
