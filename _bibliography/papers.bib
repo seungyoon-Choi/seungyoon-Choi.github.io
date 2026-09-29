@@ -28,7 +28,10 @@
   author    = {Choi, Seungyoon and Kim, Hyunchul and Lee, Jae-Gil and Park, Chanyoung},
   booktitle = cikm,
   year      = {2026},
-  selected  = {true}
+  selected  = {true},
+  arxiv     = {2609.02093},
+  code      = {https://github.com/seungyoon-Choi/CoSPOT},
+  abstract  = {To address the sequential and evolving nature of time series, the Online Time Series Forecasting (OTSF) task has been extensively studied in multiple domains. Existing research focuses on adapting to non-stationary environments by employing memory buffer-based retrieval strategies. However, we observe that such frameworks struggle with long-term adaptation and fail to generalize to unseen patterns. To this end, we introduce CoSPOT, an LLM-based online time series forecasting framework that leverages a pre-trained LLM as the backbone online forecaster, motivated by its strong few-shot capabilities. For efficient online adaptation, CoSPOT keeps the LLM frozen and employs compositional spectral prompts grounded in frequency-domain bases to guide the model with the overall distribution of the input, thereby substantially reducing the number of parameters updated during the online phase. Specifically, CoSPOT decomposes time series into frequency bases and composes the corresponding spectral basis prompts according to their amplitudes, allowing unseen patterns to be represented as new combinations of learned basis prompts. Our extensive experiments on real-world datasets demonstrate the superiority and practicality of CoSPOT across challenging online scenarios, including extended online phases and cross-dataset settings with substantial distribution shifts.}
 }
 
 @inproceedings{kim2026defaultgnn,
@@ -36,7 +39,11 @@
   title     = {DefaultGNN: A Dual-Perspective GNN Framework for Predicting Corporate Default from Buyer-Seller Transaction Networks},
   author    = {Kim, Junghoon and Kim, Hyunsung and Choi, Seungyoon and Park, Kyoungyong and Lee, Jihun and Ji, Yonggu and Park, Chanyoung},
   booktitle = {ACM International Conference on Information and Knowledge Management (Applied Research Track)},
-  year      = {2026}
+  year      = {2026},
+  arxiv     = {2609.25542},
+  html      = {https://dl.acm.org/doi/10.1145/3799682.3840153},
+  code      = {https://github.com/jhkim611/DefaultGNN},
+  abstract  = {Corporate default prediction is a core problem in financial risk management, yet traditional credit models rely heavily on financial statements that are often sparse or unavailable for many firms. Corporate transaction networks offer a complementary view of real economic activity, but how risk propagates through buyer-seller relationships remains underexplored. We conduct a large-scale empirical study using real-world electronic tax-invoice data spanning six years that links transaction histories with default events, revealing that transaction-driven risk is both role-dependent (buyer or seller) and scale-dependent. Based on these findings, we construct multiplex buyer-view and seller-view transaction networks and propose DefaultGNN, a dual-perspective graph neural network-based framework for corporate default prediction. DefaultGNN integrates both views to model how risk flows through transactional relationships, achieving strong improvements over both attribute-based and graph-based baselines, especially for firms with limited intrinsic risk signals. We further provide interpretable network-based explanations by visualizing how distressed trading partners contribute to default risk. In collaboration with a licensed credit rating agency, we validate that DefaultGNN's predictions complement existing credit scoring models, improving approval rates by 7-11\%p without increasing default risk among approved firms.}
 }
 
 @inproceedings{choi2025dynamic,
