@@ -13,5 +13,8 @@ WWW:
   color: "#7c3aed"
 CIKM:
   color: "#b45309"
+NeurIPS:
+  url: https://neurips.cc/
+  color: "#be123c"
 Preprint:
   color: "#6b7280"
