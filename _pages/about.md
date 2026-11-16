@@ -33,9 +33,9 @@ Within time series analysis, my interest has moved from **predicting** signals t
 
 **Research Interests**
 
+- **Time Series Analysis** — context-aware modeling, semantic understanding of time series
 - **Graph Neural Networks** — continual learning, data-efficient learning
 - **Recommender Systems** — sequential recommendation, user representation learning
-- **Time Series Analysis** — context-aware modeling, semantic understanding of time series
 
 Feel free to reach out at **csyoon08@kaist.ac.kr** if you would like to chat about any of these.
 
