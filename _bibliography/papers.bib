@@ -11,15 +11,18 @@
   title     = {Chasing Label Shifters: A Change-Aware Framework for Dynamic Graph Node Classification},
   author    = {Kim, Junghoon and Choi, Seungyoon and Kim, Hyunsung and Park, Chanyoung},
   booktitle = {Conference on Neural Information Processing Systems},
-  year      = {2026}
+  year      = {2026},
+  arxiv     = {2610.17582},
+  code      = {https://github.com/jhkim611/CHASE},
+  abstract  = {Entities in real-world systems often evolve over time: users shift between information consumption patterns, researchers migrate between fields, and firms transition between financial risk states. When such systems are modeled as dynamic graphs, these transitions correspond to nodes whose class labels change between consecutive snapshots, which we call shifters. Correctly classifying shifters is often more consequential than classifying stable nodes with persistent labels, as detecting such transitions enables timely intervention in high-stakes settings. Yet, we identify a systematic failure mode across all major dynamic graph neural network architectures: shifter performance consistently lags behind stable nodes, with errors concentrated on the old label. Our structural analysis traces this failure to embedding inertia: neighborhood aggregation keeps shifter representations anchored to the old-class centroid, and this effect is strongest precisely where it is hardest to correct, namely for shifters whose neighborhoods remain aligned with the old class. Guided by this finding, we propose CHASE, a model-agnostic CHange-Aware framework for Shifting nodEs that wraps any dynamic GNN with targeted components for detecting label shifts and overriding stale neighborhood signals. CHASE consistently improves shifter performance across all tested models and datasets (up to 114.9\% and 202.5\% improvement on accuracy and F1 score, respectively) while preserving stable-node performance. We additionally contribute three dynamic graph benchmarks with naturally shifting labels, filling a gap in existing resources.}
 }
 
 @inproceedings{choi2026beyond,
-  abbr      = {Preprint},
+  abbr      = {KDD},
   title     = {Beyond Time Series: Integrating Categorical Context for Robust Time Series Classification},
   author    = {Choi, Seungyoon and Kim, Hyunchul and Kim, Yerin and Lee, Sangheon and Park, Chanyoung},
-  booktitle = {Under review},
-  year      = {2026}
+  booktitle = kdd,
+  year      = {2027}
 }
 
 @inproceedings{choi2026compositional,
